@@ -154,7 +154,7 @@ function random_bg() {
     random);
   console.log(random_num);
   const audio = new Audio();
-audio.src=("./audio/click.wav");
+audio.src=("./Folio_44/audio/click.wav");
 audio.play();
 }
 // var element = document.getElementById("span3");
@@ -168,7 +168,7 @@ audio.play();
 // const parent = (document.getElementById("area").style.backgroundImage =
 //   random);
 const click = new Audio();
-click.src=("./audio/click.wav");
+click.src=("./Folio_44/audio/click.wav");
 function home(){
   div.scrollTop=0;
   click.play();
@@ -224,7 +224,7 @@ function timer(){
   document.querySelector(".hour").innerHTML = texthour;
   document.querySelector(".minute").innerHTML = textminute;
   document.querySelector(".second").innerHTML = textsecond;
-  document.querySelector(".Millisecond").innerHTML = textMillisecond;
+  // document.querySelector(".Millisecond").innerHTML = textMillisecond;
   // console.log(textday)
 }
 setInterval(timer ,1000)
