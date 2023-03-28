@@ -1,0 +1,631 @@
+@media screen and (max-width: 900px) and (max-height: 1200px) {
+  /* LOADING PAGE  */
+  #pl {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    display: block;
+    background-color: white;
+    padding: 48vh 45vw;
+    z-index: 100;
+    transition: all 1s;
+  }
+  #area .content .text_button {
+    display: grid;
+    margin: auto;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container #area .content .navbar_top .right {
+    display: flex;
+    user-select: none;
+    width: 50vw;
+    margin-right: 10px;
+  }
+  .container #area .content .navbar_top .right p {
+    font-size: 2vw;
+  }
+  .container #area .content .navbar_top {
+    height: 10vw;
+    user-select: none;
+    background: linear-gradient(
+      90deg,
+      #635687 40%,
+      rgba(0, 250, 242, 0.053) 90%
+    );
+  }
+  .wrapper .static-txt {
+    font-size: 4vw;
+    margin-left: 5vw;
+  }
+  .wrapper .dynamic-txts li {
+    font-size: 4vw;
+    margin-left: -2vw;
+  }
+  .dynamic-txts li span::after {
+    height: 10vw;
+    width: 100%;
+    background: #bec2c7;
+    border-left: 2px solid #ff0084;
+  }
+  .container_card_button {
+    width: 70vw;
+    gap: 10px;
+  }
+  .card1 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+  .card2 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    fill: #03a9f4;
+  }
+
+  .card3 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+
+  .github {
+    margin-top: -0.6em;
+    margin-left: 1.2em;
+  }
+
+  .card4 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+  .rainbow-hover {
+    user-select: none;
+    margin: auto;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ff7576;
+    background-color: #2b3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px #2b3044, 1px 2px 1px #2b3044;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg))
+      rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+    width: 30vw;
+    height: 8vw;
+    user-select: none;
+  }
+  .sp {
+    user-select: none;
+  }
+  .container #area .content .welcome {
+    margin: auto;
+    width: 70vw;
+    text-align: center;
+    font-size: 6vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  .container #area .content .welcome span {
+    color: orange;
+  }
+  .container #area .content .qoute {
+    margin: auto;
+    text-indent: -5px;
+    text-align: justify;
+    font-size: 3vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 80vw;
+    margin-top: 4vw;
+  }
+  /* SECTION 2 */
+  #area .content .container_about_me {
+    display: block;
+    width: 80vw;
+    justify-content: space-between;
+    gap: 5vw;
+    height: 70vh;
+    margin: auto;
+  }
+  #area .content .container_about_me .container_image {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+  }
+  #area .content .container_about_me .img1 {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-MM89jXDq4dphxnn.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw 0px 0px 1vw;
+    margin: auto;
+    z-index: 4;
+    margin-left: 0;
+    margin-bottom: 4vh;
+    position: relative;
+  }
+  #area .content .container_about_me .img2 {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-GUGuoHFuwUOvi62.png?nc=1);
+    background-size: cover;
+    background-position: center;
+    border-radius: 01vw 01vw 0px 0vw;
+    margin: auto;
+    z-index: 8;
+    margin-left: 0;
+    margin-bottom: 4vh;
+  }
+  #area .content .container_about_me .img3 {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-qGpXYh1P4AJ0Yen.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 1vw 1vw 0px;
+    margin: auto;
+    z-index: 4;
+    margin-left: 0;
+    margin-bottom: 4vh;
+    position: relative;
+  }
+  #area .content .container_about_me .text {
+    width: 70vw;
+    margin-bottom: auto;
+    margin-left: 0px;
+    font-size: 3vw;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+  }
+  #section2 {
+    display: block;
+  }
+  #area .content .text_button p {
+    user-select: none;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #ff7576;
+    background-color: #2b3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 1px 2px #2b3044, 0px 4px 16px #2b3044;
+    padding: 0.7vw 5vw;
+    background: linear-gradient(
+      90deg,
+      #866ee7,
+      #ea60da,
+      #ed8f57,
+      #fbd41d,
+      #2cca91
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: auto;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-top: 8vh;
+  }
+}
+
+@media screen and (max-width: 480px) and (max-height: 940px) {
+  /* LOADING PAGE  */
+  #pl {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    display: block;
+    background-color: white;
+    padding: 43vh 38vw;
+    z-index: 100;
+    transition: all 1s;
+    overflow: hidden;
+  }
+  #btn_animation {
+    margin-top: 5vh;
+    margin-left: 25%;
+  }
+  .container_last_work {
+    width: 100vw;
+    height: 21vh;
+    border-radius: 0%;
+  }
+  .last_text {
+    height: 70vh;
+  }
+  .loader {
+    display: none;
+  }
+  .last_text .text_last2 {
+    font-size: 5vw;
+    width: 80vw;
+  }
+  #area .content .text_button {
+    display: grid;
+    margin: auto;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container_last_text {
+    width: 100vw;
+    height: 50vh;
+    justify-content: space-between;
+    text-overflow: ellipsis;
+  }
+  .container_last_text .text_last span {
+    font-size: 6vw;
+    margin-top: 0vh;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    margin-left: 0;
+  }
+  .container_card_graduated {
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+  .container_card_graduated .container_card {
+    height: 30vh;
+    width: 40vw;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+  }
+  .last_text .text_last {
+    font-size: 7vw;
+  }
+  .container #area .content .navbar_top .right {
+    display: none;
+  }
+  .container #area .content .navbar_top {
+    height: 10vw;
+  }
+  .wrapper .static-txt {
+    font-size: 4vw;
+    margin-left: 5vw;
+  }
+  .wrapper .dynamic-txts li {
+    font-size: 4vw;
+    margin-left: -10vw;
+  }
+  .dynamic-txts li span::after {
+    height: 10vw;
+    width: 100%;
+    background: #bec2c7;
+    border-left: 2px solid #ff0084;
+  }
+  .container_card_button {
+    width: 70vw;
+    gap: 10px;
+  }
+  .card1 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+  .card2 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+
+  .twitter {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    fill: #03a9f4;
+  }
+
+  .card3 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+
+  .github {
+    margin-top: -0.6em;
+    margin-left: 1.2em;
+  }
+
+  .card4 {
+    width: 10vw;
+    height: 10vw;
+    background-size: 6vw;
+  }
+  .rainbow-hover {
+    user-select: none;
+    margin: auto;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ff7576;
+    background-color: #2b3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px #2b3044, 1px 2px 1px #2b3044;
+    transform-style: preserve-3d;
+    transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg))
+      rotateY(var(--ry, 0deg));
+    perspective: 600px;
+    transition: transform 0.1s;
+    width: 30vw;
+    height: 8vw;
+    user-select: none;
+  }
+  .sp {
+    user-select: none;
+  }
+  #area:nth-child(even) {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/144.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+  }
+  #area:nth-child(odd) {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/4587.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70%;
+  }
+  .container #area .content .welcome {
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    font-size: large;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  }
+  .container #area .content .welcome span {
+    color: orange;
+  }
+  .container #area .content .qoute {
+    margin: auto;
+    text-indent: -5px;
+    text-align: justify;
+    font-size: 3vw;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    width: 80vw;
+    margin-top: 4vw;
+  }
+  /* SECTION 2 */
+  #area .content .container_about_me {
+    display: block;
+    width: 80vw;
+    justify-content: space-between;
+    gap: 5vw;
+    height: 70vh;
+    margin: auto;
+  }
+  #area .content .container_about_me .container_image {
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    margin: auto;
+  }
+  #area .content .container_about_me .img1 {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-MM89jXDq4dphxnn.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw 0px 0px 1vw;
+    margin: auto;
+    z-index: 4;
+    margin-left: 0;
+    margin-bottom: 4vh;
+    position: relative;
+  }
+  #area .content .container_about_me .img2 {
+    width: 30vw;
+    height: 30vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-GUGuoHFuwUOvi62.png?nc=1);
+    background-size: cover;
+    background-position: center;
+    border-radius: 01vw 01vw 0px 0vw;
+    margin: auto;
+    z-index: 8;
+    margin-left: 0;
+    margin-bottom: 4vh;
+  }
+  #area .content .container_about_me .img3 {
+    width: 25vw;
+    height: 25vw;
+    background-image: url(https://hotpotmedia.s3.us-east-2.amazonaws.com/8-qGpXYh1P4AJ0Yen.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 1vw 1vw 0px;
+    margin: auto;
+    z-index: 4;
+    margin-left: 0;
+    margin-bottom: 4vh;
+    position: relative;
+  }
+  #area .content .container_about_me .text {
+    width: 70vw;
+    margin-bottom: auto;
+    margin-left: 0px;
+    font-size: 3vw;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+  }
+  #section2 {
+    display: block;
+  }
+  #area .content .text_button p {
+    user-select: none;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #ff7576;
+    background-color: #2b3044;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 1px 2px #2b3044, 0px 4px 16px #2b3044;
+    padding: 2vw 10vw;
+    background: linear-gradient(
+      90deg,
+      #6e72e7,
+      #77ea60,
+      #ed8f57,
+      #fb1df0,
+      #2cca91
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: auto;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  /* SECTION 3 */
+  .do_main {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+    gap: 5vw;
+  }
+  .container_left_do {
+    width: 80vw;
+    height: 30vh;
+    margin-bottom: 0;
+  }
+  .container_right_do {
+    width: 80vw;
+    height: 30vh;
+    margin-top: 0;
+  }
+  .container_right_do .text {
+    font-size: 6vw;
+  }
+  .container_right_do .text_do {
+    font-size: 3vw;
+    width: 80vw;
+  }
+  .container_left_do .text {
+    font-size: 6vw;
+  }
+  .container_left_do .text_do {
+    font-size: 3vw;
+    width: 80vw;
+  }
+  .svg-frame {
+    top: 40%;
+    left: 40%;
+  }
+  .svg-frame:hover svg {
+    transform: none ;
+  }
+}
+/* time  */
+@media screen and (max-width:600px){
+  .container_timer{
+      display: grid;
+      text-align: center;
+      justify-content: space-between;
+      margin: auto;
+      width: 80%;
+      margin-top: 10vh;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-right: 3%;
+  }
+  .hour{
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .address_time{
+      display: flex;
+      /* margin: auto; */
+  }
+  .nametime{
+
+      color: aliceblue;
+      font-size:10px;
+      z-index: 6;
+      margin-left: 1px;
+      /* margin-right: 5px; */
+  }
+  .minute{
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .second{
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .day{
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .year{
+
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .century{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
+  .Millisecond{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: orange;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size:8vw;
+      z-index: 6;
+  }
