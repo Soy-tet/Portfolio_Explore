@@ -160,8 +160,9 @@
       line-height: 1.3em; */
     font-weight: 400;
     font-family: sans-serif;
+    background-color: pink;
     border-radius: 0.2rem;
-    background-image: url(https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/288220684_127381629974140_2861742593891493794_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeHMlETEZaNHgHJ_ctYE-CCsRQzlU0fldF1FDOVTR-V0XZ7_n6iubb6Vl9ziT0UHwqv1LVX20gkUqOFVjnGDUytI&_nc_ohc=pcAmT5rdxngAX_dlOmW&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfA3Ox3V6x7jCYQkhwcJQMOqH0Fi2l14q_EktYuyFb9gDw&oe=64241B41);
+    background-image: url(https://lh3.googleusercontent.com/pw/AMWts8DdGjks9mnpMQC0ps0AhA3LBtMcNa-dEiqDVq_gpgcwuOo_fYSX0N5vLY1xh78YvAO5P_5uN5w7XHzicplRGRm9dVxyznkvHMxr1rcAfGzYAIf0VdBPOFeoj6M3l2ed6HtApBXNpJZlVEMvpPJ22AI21YVZG2Y6HX0DddECsIKnKxGJHkGarljWip-oicsSKJn8y48ztkmfkVknevb8EDAR7-TXj7Bcx5dOSPhztfiVCZqh7DACipsyaHCxhfIbtkSOzDbzLNsdpubtukKTv9Xf_TtYCoNTkmwzzLjP49yNp2niyYDdOKY8ymqlULZ_k2vVVPtoBYEmcoR2U53HXFjUHXDLfs2nF9zNz17izIDLyYTxlOtMMsPFMPonumjiNa5MzBzMB6BM1OxqMSbmMaSsDIAn2WLMcbcnyvDJLkj0kGvUlWbGwWq6lnkA2z7ks9K52t5bjOkYMB0ef4jsfbdj5ksOOD8JstxYyM7nKPRkQHn5cum2O14ZTyOzqjsjbSkxpkpgFFpbCIq9yDegBlCt1NPau5HcTTPdAa8vy-ZHX2LEfGoiTlQ5RgKXLJr3tEuKjOa5m9H5HsxBwrrTcGCCWwTeEsf8I1UijCvwDPGjN42IVVVdWaFywa06vhHyGAU7uDcjbAUflVHOSO8HpYoqqNvKBDlx_IlYUnTOxDbdkH9A5sTHs1eTiaVa0oeb8ORab9psfgo589BnsQfCCzVM3mHyciyYjY29tJxj4Y8bXTs97U5VOSA0mDGwTMuV8lBKO0abrw17zaDJlpAtWJfbuERq-f3I_iNS5St-nN2d9a82qz8Sz2TMKPVYEiJWz81QkK5dgOTx3g2s7N6MmMvtRv1eHSFRXuvfI5yQlRiDYxv4W6z_DENeyFTXzv5eV9j6kIJSYCK5D8-qIn975WSP6fsunuV1ilAFBoa6AVwDe3bY0Q0JsF9pI1RRog=w615-h346-no?authuser=0);
     background-size: cover;
     width: 20vw;
   }
@@ -187,15 +188,11 @@
   .container_last_work .item10 {
     scroll-snap-align: start;
     flex: 0 0 28%;
-    /* background: linear-gradient(120deg, coral 30%, rgb(255, 187, 163) 88%, rgb(255, 185, 160) 
-      40%, coral 48%); */
     display: flex;
     justify-content: center;
     align-items: center;
     color: bisque;
     text-align: center;
-    /* font-size: 1.3rem;
-      line-height: 1.3em; */
     font-weight: 400;
     font-family: sans-serif;
     border-radius: 0.2rem;
@@ -206,15 +203,11 @@
   .container_last_work .item11 {
     scroll-snap-align: start;
     flex: 0 0 28%;
-    /* background: linear-gradient(120deg, coral 30%, rgb(255, 187, 163) 88%, rgb(255, 185, 160) 
-      40%, coral 48%); */
     display: flex;
     justify-content: center;
     align-items: center;
     color: bisque;
     text-align: center;
-    /* font-size: 1.3rem;
-      line-height: 1.3em; */
     font-weight: 400;
     font-family: sans-serif;
     border-radius: 0.2rem;
