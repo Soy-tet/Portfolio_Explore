@@ -23,6 +23,9 @@
     margin-top: 0vh;
     grid-template-columns: 1fr 1fr 1fr;
     margin-right: 3%;
+    position: absolute;
+    bottom: 5vh;
+    left: 18vw;
 }
 
 .hour{
@@ -346,12 +349,12 @@
     font-size: 5vw;
     width: 80vw;
   }
-  #area .content .text_button {
+  /* #area .content .text_button {
     display: grid;
     margin: auto;
     width: 100vw;
     grid-template-columns: 1fr 1fr;
-  }
+  } */
   .container_last_text {
     width: 100vw;
     height: 50vh;

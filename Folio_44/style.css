@@ -259,7 +259,7 @@ body {
 .container #area .content .navbar_top {
   width: 100vw;
   height: 4vw;
-  position: absolute;
+  position: fixed;
   top: 0px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -1030,5 +1030,8 @@ button{
   left: 1vw;
 }
 .area_last_work{
+  position: relative;
+}
+.area_home_1{
   position: relative;
 }
