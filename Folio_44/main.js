@@ -38,7 +38,7 @@ if(width <= 700){
       var dynamic = (document.getElementById("dynamic-txts").innerHTML = "");
       var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
     }
-    console.log(scrollTop);
+    // console.log(scrollTop);
   
   });
 }
@@ -49,33 +49,39 @@ else {
     if (scrollTop >= 500) {
       var dynamic = (document.querySelector(".static-txt").innerHTML =
         "What's about me?");
+        var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".dynamic-txts").innerHTML = "");
       var navbar_color = document.getElementById("navbar_top").style.background='#28c7fa40';
     }
     if (scrollTop >= 1200) {
       var dynamic = (document.querySelector(".static-txt").innerHTML =
         "What's do I do?");
+        var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".dynamic-txts").innerHTML = "");
        var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
     }
     if (scrollTop >= 2000) {
       var dynamic = (document.querySelector(".static-txt").innerHTML =
-        "What's I graduated");
+        "What's I project?");
+        var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".dynamic-txts").innerHTML = "");
        var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
     } 
     if (scrollTop >= 3000) {
       var dynamic = (document.querySelector(".static-txt").innerHTML =
         "What's my last work?");
+        var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".dynamic-txts").innerHTML = "");
        var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
     }
     if (scrollTop >= 3900) {
+      var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".static-txt").innerHTML =
         "What's my footer?");
       var dynamic = (document.querySelector(".dynamic-txts").innerHTML = "");
        var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
     }else if (scrollTop < 200) {
+      var dynamic = document.getElementById("static-txt").style.width="15vw";
       var dynamic = (document.querySelector(".static-txt").innerHTML = "I'm a programmer");
       var dynamic = (document.getElementById("dynamic-txts").innerHTML = "");
       var navbar_color = document.getElementById("navbar_top").style.background='rgba(0, 250, 242, 0.053)';
@@ -84,12 +90,14 @@ else {
   
   });
 }
-
+function hi(){
+  alert("hi");
+}
 
 // LOADING TIME OUT 
 setTimeout(() => {
-  var loading = document.getElementById("pl").style.display="none";
-}, 950);
+  var loading = document.getElementById("loader").style.display="none";
+}, 1000);
 var A1 = "url(https://4kwallpapers.com/images/walls/thumbs_3t/2528.jpg)";
 var A2 = "url(https://4kwallpapers.com/images/walls/thumbs_3t/4587.png)";
 var A3 = "url(https://4kwallpapers.com/images/walls/thumbs_3t/144.png)";
@@ -152,7 +160,7 @@ function random_bg() {
   var random = array[random_num];
   const parent = (document.getElementById("area").style.backgroundImage =
     random);
-  console.log(random_num);
+  // console.log(random_num);
   const audio = new Audio();
 audio.src=("./Folio_44/audio/click.wav");
 audio.play();
@@ -177,15 +185,15 @@ function aboutme(){
   div.scrollTop=500;
   click.play();
 }
-function doIdo(){
-  div.scrollTop=1400;
+function blog(){
+  div.scrollTop=1800;
   click.play();
 }
-function graduated(){
-  div.scrollTop=2700;
+function project(){
+  div.scrollTop=3000;
   click.play();
 }
-function last_work(){
+function lastwork(){
   div.scrollTop=4000;
   click.play();
 }

@@ -232,6 +232,38 @@
     width: 100%;
 background-image: url(https://lh3.googleusercontent.com/pw/AMWts8CeXhObvSwPH_Uo8H6L9uD3Wb358ZZMuEoHbKbJNDpbSmirQ-0KEKvcVv2hqybx5tE1czv0uTjJ7s1n8WTOxbpAEcN810YYufK0QhAXQ5kgV7HnUa2PgNAbdXCYMpag_2Ob5-5IzLYFStiEhkQK_1gOm-_VqSjP5r4QQ1tljD9WsNKPODT9MBw1kz01KRabKl1DQ9izuJZpuoWYQ7cyzC7o76N-Hxcl734YVpzcjLZxZJRRRbhm_GmnEMBYKvoU5MddkT7iO1dbcO9ycWVMo3loH2ShwOIOII8MZlEBUwCfjVwSBSpW9bpJsUtklDBTeqxcmVMINff1ClRJEeNW7etbjUVBe_G5ec5GF041Z2x36EPEeZWnBnvHw9kYhvnfIVbSAhuXRzh01XrOGB6bvbrlx3A9tHpg1NZXgHNM_K_5bEhjJU0-f-Rpu2mGGHO2bzQ-6MLpROcqW8qbCTXRQF8CQTx8NmTbz6bx17NJmTQfIbcaaKLpjwsYUjWDpKE-jVrpxyZ6YAr3vqA9BIMaMYYL0S4TMpZ52gliAIUqfIF8aatMHQU9Wti3Vh_0L2_Zv0X_OSh5egIwxT8Pkl0mFB6CSrH3UzH9SV5ZVkrxsparBmEUmlhnnRYI2WQySk7IY64U9oA_3aSkk7S52GCmOLtNycEV52hPPt6JeggLDaDLdp554ETjk5SA0EVLMGG4ehgjQB9eQwUcKMvdPt_hIKSwHFvD-qqgKiId7VNIEOUFvAPn6iRH1cj3JXGji8wYmExFG7vr4R76MF_gmhEDiTzK93zd40iQQhaybAIcDb6kVgtxXXs5_x2syNC2igwl6s28nfQohQyRB9bJfFoTb3j6KfBrR1dbgusN1k59Kzl_DLlurexk3z2ggklhyJIPaIzlAAF453EZesT0E6dsU8WF1IaucZ27tyCs6VMfyfNuKArXM8nBvCAjav5-Aw=w379-h346-no?authuser=0);
   }
+  .container_card_graduated .container_card .img5{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 35%;
+    width: 100%;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/10224.jpg);
+  }
+  .container_card_graduated .container_card .img6{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 35%;
+    width: 100%;
+background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/10214.jpg);
+  }
+  .container_card_graduated .container_card .img7{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 35%;
+    width: 100%;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/9199.jpg);
+  }
+  .container_card_graduated .container_card .img8{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 35%;
+    width: 100%;
+background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/8940.jpg);
+  }
   @media screen and (max-width:800) {
     .container_card_graduated .container_card .img2{
       background-position: 40vw 18vh;
@@ -316,3 +348,104 @@ background-image: url(https://lh3.googleusercontent.com/pw/AMWts8CeXhObvSwPH_Uo8
         width: 20vw;
       }
   }
+
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+} */
+.container_blog {
+  display: grid;
+  width: 100vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+  overflow-x: hidden;
+}
+.container_blog::-webkit-scrollbar{
+  height: 0px;
+}
+
+.card {
+  margin: 10px;
+  background-color: #ffffff2d;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.03);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.7px);
+-webkit-backdrop-filter: blur(7.7px);
+border: 1px solid rgba(255, 255, 255, 0.41);
+
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}

@@ -1,15 +1,4 @@
 @media screen and (max-width: 900px) and (max-height: 1200px) {
-  /* LOADING PAGE  */
-  #pl {
-    width: 6em;
-    height: 6em;
-    position: absolute;
-    display: block;
-    background-color: white;
-    padding: 48vh 45vw;
-    z-index: 100;
-    transition: all 1s;
-  }
   .container #area .content .container_text {
     width: 100vw;
     height: 80vh;
