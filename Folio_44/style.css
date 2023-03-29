@@ -902,14 +902,14 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-button{
+button {
   text-overflow: ellipsis;
-      white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.container_last_text .text_last span{
-  margin-left: 12vw; 
+.container_last_text .text_last span {
+  margin-left: 12vw;
   font-size: 3vw;
 }
 .last_text .text_last2 {
@@ -949,19 +949,41 @@ button{
   background-position: center;
   border-radius: 10px 10px 0px 0px;
 }
-.container_card_graduated .container_card .text{
+.container_card_graduated .container_card .text {
   display: block;
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.container_card_graduated .container_card .text h3{
+.container_card_graduated .container_card .text h3 {
   text-align: center;
-  margin-top: -5%;
+  margin-top: 0%;
   font-size: 2vw;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  box-shadow: rgba(0, 169, 225, 0.068) 0px 3px 6px, rgba(255, 8, 136, 0.074) 0px 3px 6px;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width:70%;
+    margin: auto;
+    text-decoration: double underline;
+}
+.container_card_graduated .container_card .text p{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* white-space: nowrap; */
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 1.1vw;
+}
+.container_card_graduated .container_card .text p span{
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 /* TIME  */
-.container_timer{
+.container_timer {
   display: grid;
   text-align: center;
   justify-content: space-between;
@@ -971,70 +993,74 @@ button{
   margin-top: 8vh;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.hour{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.hour {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.address_time{
+.address_time {
   display: flex;
   /* margin: auto; */
 }
-.nametime{
+.nametime {
   color: aliceblue;
   font-size: 5vh;
   z-index: 6;
   margin-left: 10px;
   /* margin-right: 5px; */
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.minute{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.minute {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.second{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.second {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.day{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.day {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.year{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.year {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.century{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.century {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.Millisecond{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.Millisecond {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: orange;
   font-size: 5vh;
   z-index: 6;
 }
-.container_last_work{
+.container_last_work {
   position: absolute;
   bottom: 10px;
   left: 1vw;
 }
-.area_last_work{
+.area_last_work {
   position: relative;
 }
-.area_home_1{
+.area_home_1 {
   position: relative;
 }
 
 /* Button song player  */
+a {
+  color: white;
+  text-decoration: none;
+}

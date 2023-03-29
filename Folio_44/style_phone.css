@@ -221,12 +221,12 @@
     width: 80vw;
     justify-content: space-between;
     gap: 5vw;
-    height: 70vh;
+    height: 55vh;
     margin: auto;
   }
   #area .content .container_about_me .container_image {
     width: 80vw;
-    height: 50vh;
+    height: 35vh;
     display: flex;
     margin: auto;
   }
@@ -329,6 +329,10 @@
     margin-top: 0%;
     font-size: 2vw;
   }
+  .container_card_graduated .container_card .text p{
+    font-size: 2vw;
+    font-weight: 600;
+  }
   /* last do section  */
   #btn_animation {
     margin-top: 5vh;
@@ -376,7 +380,7 @@
   /* .item, .item1, .item2,.item3,.item4,.item5,.item6,.item7,.item8,.item9,.item10 */
   .container_last_work{
     position: absolute;
-    bottom: 7px;
+    bottom: 2vh;
     left: 0vw;
   }
   .container_last_work .item{
@@ -454,6 +458,14 @@
     transition: all 1s;
     overflow: hidden;
   }
+  .container_card_graduated .container_card .text h3{
+    margin-top: 0%;
+    font-size: 4vw;
+  }
+  .container_card_graduated .container_card .text p{
+    font-size: 3vw;
+    font-weight: 600;
+  }
   #btn_animation {
     margin-top: 5vh;
     margin-left: 25%;
@@ -462,6 +474,8 @@
     width: 100vw;
     height: 21vh;
     border-radius: 0%;
+    bottom: 5vh;
+    left: 0;
   }
   .last_text {
     height: 70vh;
@@ -629,12 +643,12 @@
     width: 80vw;
     justify-content: space-between;
     gap: 5vw;
-    height: 70vh;
+    height: 60vh;
     margin: auto;
   }
   #area .content .container_about_me .container_image {
     width: 80vw;
-    height: 50vh;
+    height: 35vh;
     display: flex;
     margin: auto;
   }
