@@ -1,7 +1,8 @@
 body {
   overflow-x: hidden;
   margin: 0px;
-  overflow-y: hidden;
+  overflow-y: scroll;
+  touch-action: none;
 }
 /* width */
 ::-webkit-scrollbar {

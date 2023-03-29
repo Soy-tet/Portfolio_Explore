@@ -800,15 +800,18 @@
 /* time  */
 @media screen and (max-width:600px){
   .container_timer{
-      display: grid;
-      text-align: center;
-      justify-content: space-between;
-      margin: auto;
-      width: 80%;
-      margin-top: 10vh;
-      grid-template-columns: 1fr 1fr 1fr;
-      margin-right: 3%;
-  }
+    display: grid;
+    text-align: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-top: 0vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 3%;
+    position: absolute;
+    bottom: 17vh;
+    left: 18vw;
+}
   .hour{
 
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
