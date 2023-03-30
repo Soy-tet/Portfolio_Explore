@@ -236,3 +236,13 @@ function timer(){
   // console.log(textday)
 }
 setInterval(timer ,1000)
+
+var speedTotal = 30;
+var speedText = 1;
+var convertToString = string(speedTotal)+"s";
+function speed(){
+  speedTotal = speedTotal-10;
+  speedText = speedText + 1;
+  var slide_track = document.getElementById("slide-track").style.animationDuration=convertToString;
+  document.querySelector(".speed").innerHTML= string(speedText);
+}
